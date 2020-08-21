@@ -14,7 +14,7 @@
 // ==/UserScript==
 
 if (document.getElementsByClassName("form-control fireliker-style-text-mono text-warning").length > 0) {
-    $('input[placeholder="Username"]').val('YOUR_USERNAME'); //Change YOUR_USERNAME with your username
+    $('input[placeholder="Username"]').val('grayun.ts.mi.t.5'); //Change YOUR_USERNAME with your username
     setTimeout(function () {
         lp();
     }, 2000);
@@ -53,7 +53,7 @@ function changeValue() {
             2 = 400 views
             3 = 600 views
             4 = 800 views
-            5 = 1000 views
+            5 = 3000 views
         */
         jNode.val('5');
 
